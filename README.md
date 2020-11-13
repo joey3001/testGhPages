@@ -17,6 +17,8 @@ todo
 | Should correctly return a user's age in mercury years (A mercury year is .24 earth years) | newAge.startingAge = 20 | newAge.mercuryAge = 20/.24 = 83.33 | 
 | venusYears |||
 | Should correctly return a user's age in venus years (A venus year is .64 earth years) | newAge.startingAge = 20 | newAge.venusAge = 20/.64 = 31.25 | 
+| marsYears |||
+| Should correctly return a user's age in mars years (A venus year is 1.88 earth years) | newAge.startingAge = 20 | newAge.marsAge = 20/.64 = 31.25 | 
 
 ## Setup/Installation Requirements
 #### If you have difficulty following any of the steps/instructions listed below, please contact me at josephnero111@gmail.com 
