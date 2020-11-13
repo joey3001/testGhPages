@@ -37,6 +37,6 @@ describe('Age', () => {
 
   test('Should correctly return a users remaining years as calculated with average life expectancy in the US', () => {
     newAge.remainingYears();
-    expect(newAge.remainingYears).toEqual(78.54-20);
+    expect(newAge.remainingTime).toEqual(78.54-20);
   });
 })

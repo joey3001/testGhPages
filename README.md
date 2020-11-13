@@ -22,7 +22,7 @@ todo
 | jupiterYears |||
 | Should correctly return a user's age in jupiter years (A jupiter year is 11.86 earth years) | newAge.startingAge = 20 | newAge.jupiterAge = 11.86 | 
 | remainingYears |||
-| Should correctly return a users remaining years as calculated with average life expectancy in the US | newAge.startingAge = 20 | newAge.remainingYears = 78.54 - 20 = 58.54 | 
+| Should correctly return a users remaining years as calculated with average life expectancy in the US | newAge.startingAge = 20 | newAge.remainingTime = 78.54 - 20 = 58.54 | 
 
 ## Setup/Installation Requirements
 #### If you have difficulty following any of the steps/instructions listed below, please contact me at josephnero111@gmail.com 
