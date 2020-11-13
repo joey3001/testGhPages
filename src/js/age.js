@@ -50,5 +50,6 @@ export default class Age {
   }
 
   remainingJupiterYears() {
+    this.remainingJupiterTime = this.remainingTime/11.86; 
   }
 }
