@@ -12,5 +12,6 @@ export default class Age {
     this.venusAge = this.startingAge/.64;
   }
   marsYears() {
+    this.marsAge = this.startingAge/1.88; 
   }
 }
