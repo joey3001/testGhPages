@@ -16,6 +16,7 @@ export default class Age {
     this.marsAge = this.startingAge/1.88; 
   }
   jupiterYears() {
+    this.jupiterAge = this.startingAge/11.86; 
   }
 }
 
