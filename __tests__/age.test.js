@@ -39,4 +39,9 @@ describe('Age', () => {
     newAge.remainingYears();
     expect(newAge.remainingTime).toEqual(78.54-20);
   });
+
+  test('If a user has surpassed the average life expectancy, Should correctly return the number of years they have lived past the average life expectancy', () => {
+    newAge.startingAge = 80.54; 
+    expect(newAge.remainingTime).toEqual(2);
+  });
 })
