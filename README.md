@@ -11,7 +11,7 @@ todo
 | Test | Input | Output |
 | :--------------------------- | :--------------------------------- | :---------------- | 
 | mercuryYears |||
-| Correctly return a user's age in mercury years (A mercury year is .24 earth years) | let age = 28 | let mercuryAge = .24*age = 6.72 | 
+| Correctly return a user's age in mercury years (A mercury year is .24 earth years) | let age = 28 | let mercuryAge = age/.24 = 116.67 | | 
 
 ## Setup/Installation Requirements
 #### If you have difficulty following any of the steps/instructions listed below, please contact me at josephnero111@gmail.com 
