@@ -4,6 +4,7 @@ export default class Age {
     this.mercuryAge = 0; 
     this.venusAge = 0;
     this.marsAge = 0; 
+    this.jupiterAge = 0;
   }
   mercuryYears() {
     this.mercuryAge = this.startingAge/.24; 
@@ -14,4 +15,7 @@ export default class Age {
   marsYears() {
     this.marsAge = this.startingAge/1.88; 
   }
+  jupiterYears() {
+  }
 }
+
