@@ -29,4 +29,9 @@ describe('Age', () => {
     newAge.marsYears(); 
     expect(newAge.marsAge).toEqual(20/1.88);
   });
+
+  test(' Should correctly return a users age in jupier years (A jupiter year is 1.88 earth years)', () => {
+    newAge.jupiterYears(); 
+    expect(newAge.jupiterAge).toEqual(20/1.88);
+  });
 })
