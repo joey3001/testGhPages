@@ -6,7 +6,7 @@
 
 ### Description
 
-This application utilizes a test driven environment to build and test objects and prototypes contained within a class. It also uses import and export statements to use the contents of a class across files. In particular, this application will calculate a users age in mercury, venus, mars, and jupiter years. It will also tell you how many years you have remaining on each planet(including earth) as measureda gainst the average US life expectancy. Test specs can be revealed by clicking on Expand Specs below: 
+This application utilizes a test driven environment to build and test objects and prototypes contained within a class. It also uses import and export statements to use the contents of a class across files. In particular, this application will calculate a users age in mercury, venus, mars, and jupiter years. It will also tell you how many years you have remaining on each planet(including earth) as measured  against the average US life expectancy. Test specs can be revealed by clicking on Expand Specs below: 
 
 <details>
 <summary>Expand Specs</summary>
@@ -48,7 +48,9 @@ This application utilizes a test driven environment to build and test objects an
     - To clone the repository from Github using git commands in the terminal, you need a terminal program & Git. For Windows OS, I recommend the Git Bash terminal program. Installing Git Bash will also install Git. 
 3. VSCode (or another code editor)
     - To view/edit this code, you need a code editor. I recommend VSCode. 
-4. Detailed instructions to install Git Bash & VSCode can be found in the Setup/Installation Requirements section of the README for [this repo.](https://github.com/joey3001/first-friday-project)
+4. Node.js 
+    - Node.js is a javascript runtime environment that you need to use npm, the preferred package manager for this application. You can download it for windows OS at [this link](https://nodejs.org/en/download/)
+5. Detailed instructions to install Git Bash & VSCode can be found in the Setup/Installation Requirements section of the README for [this repo.](https://github.com/joey3001/first-friday-project)
 
 #### To view this website online please use the following GH-Pages link: 
 

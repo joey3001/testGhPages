@@ -13,7 +13,7 @@ export default class Age {
   }
 
   mercuryYears() {
-    this.mercuryAge = this.startingAge/.24; 
+    this.mercuryAge = this.startingAge/.24;
   }
 
   venusYears() {
