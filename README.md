@@ -10,6 +10,8 @@ todo
 
 | Test | Input | Output |
 | :--------------------------- | :--------------------------------- | :---------------- | 
+| Age |||
+| Correctly initialize an instance of the Age object | let newAge = new Age() | typeof(newAge) = object| 
 | mercuryYears |||
 | Correctly return a user's age in mercury years (A mercury year is .24 earth years) | let age = 28 | let mercuryAge = age/.24 = 116.67 | | 
 
