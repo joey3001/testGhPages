@@ -64,6 +64,6 @@ describe('Age', () => {
 
   test('Should return the users remaining years left in jupiter years', () => {
     newAge.remainingJupiterYears();
-    expect(newAge.remainingMarsTime).toEqual((78.54-20)/11.86);
+    expect(newAge.remainingJupiterTime).toEqual((78.54-20)/11.86);
   });
 });
