@@ -42,6 +42,7 @@ export default class Age {
   }
 
   remainingVenusYears() {
+    this.remainingVenusTime = this.remainingTime/.64; 
   }
 }
 
