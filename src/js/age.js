@@ -26,6 +26,7 @@ export default class Age {
 
   remainingYears() {
     if (this.startingAge > 78.54) {
+      this.remainingTime = this.startingAge-78.54; 
     }
     else {
       this.remainingTime = 78.54 - this.startingAge; 
