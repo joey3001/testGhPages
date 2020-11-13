@@ -1,12 +1,15 @@
 # Joe's Galactic Age Calendar
 
-#### todo
+#### This application utilizes a test driven environment to build and test objects and prototypes contained within a class. 
 
 #### By Joseph Nero 
 
 ### Description
 
-todo
+This application utilizes a test driven environment to build and test objects and prototypes contained within a class. It also uses import and export statements to use the contents of a class across files. In particular, this application will calculate a users age in mercury, venus, mars, and jupiter years. It will also tell you how many years you have remaining on each planet(including earth) as measureda gainst the average US life expectancy. Test specs can be revealed by clicking on Expand Specs below: 
+
+<details>
+<summary>Expand Specs</summary>
 
 | Test | Input | Output |
 | :--------------------------- | :--------------------------------- | :---------------- | 
@@ -33,7 +36,7 @@ todo
 | remainingJupiterYears |||
 | Should correctly return a users remaining years left in jupiter years | newAge.startingAge = 20 | newAge.remainingMercuryTime = 58.54/11.86 = 4.94 | 
 
-
+</details>
 
 ## Setup/Installation Requirements
 #### If you have difficulty following any of the steps/instructions listed below, please contact me at josephnero111@gmail.com 
