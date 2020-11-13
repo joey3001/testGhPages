@@ -1,4 +1,5 @@
 export default class Age {
-  constructor() {
+  constructor(start) {
+    this.startingAge = start; 
   }
 }
