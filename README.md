@@ -28,6 +28,8 @@ todo
 | Should correctly return a users remaining years left in mercury years | newAge.startingAge = 20 | newAge.remainingMercuryTime = 58.54/.24 = 243.92 | 
 | remainingVenusYears |||
 | Should correctly return a users remaining years left in venus years | newAge.startingAge = 20 | newAge.remainingMercuryTime = 58.54/.64 = 91.47 | 
+| remainingMarsYears |||
+| Should correctly return a users remaining years left in mars years | newAge.startingAge = 20 | newAge.remainingMercuryTime = 58.54/1.88 = 31.14 | 
 
 
 ## Setup/Installation Requirements

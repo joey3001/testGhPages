@@ -52,8 +52,13 @@ describe('Age', () => {
     expect(newAge.remainingMercuryTime).toEqual((78.54-20)/.24);
   });
 
-  test('Should return the users remaining years left in mercury years', () => {
+  test('Should return the users remaining years left in venus years', () => {
     newAge.remainingVenusYears();
     expect(newAge.remainingVenusTime).toEqual((78.54-20)/.64);
+  });
+
+  test('Should return the users remaining years left in mars years', () => {
+    newAge.remainingMarsYears();
+    expect(newAge.remainingMarsTime).toEqual((78.54-20)/1.88);
   });
 });
