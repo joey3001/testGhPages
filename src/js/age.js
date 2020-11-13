@@ -46,6 +46,6 @@ export default class Age {
   }
   
   remainingMarsYears() {
-
+    this.remainingMarsTime = this.remainingTime/1.88; 
   }
 }
