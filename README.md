@@ -24,6 +24,9 @@ todo
 | remainingYears |||
 | Should correctly return a users remaining years as calculated with average life expectancy in the US | newAge.startingAge = 20 | newAge.remainingTime = 78.54 - 20 = 58.54 | 
 | If a user has surpassed the average life expectancy, Should correctly return the number of years they have lived past the average life expectancy | newAge.startingAge = 80.54 | newAge.remainingTime = 80.54 - 78.54 = 2 | 
+| remainingMercuryYears |||
+| Should correctly return a users remaining years left in mercury years | newAge.startingAge = 20 | newAge.remainingMercuryTime = 78.54 - 20 = 58.54 | 
+| If a user has surpassed the average life expectancy, Should correctly return the number of years they have lived past the average life expectancy | newAge.startingAge = 20 | newAge.remainingTime = 58.54/.64 = 91.47 | 
 
 ## Setup/Installation Requirements
 #### If you have difficulty following any of the steps/instructions listed below, please contact me at josephnero111@gmail.com 

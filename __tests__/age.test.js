@@ -45,4 +45,10 @@ describe('Age', () => {
     newAge.remainingYears();
     expect(newAge.remainingTime).toEqual(2);
   });
+
+  test('Should return the users remaining years left in mercury years', () => {
+    newAge.remainingYears();
+    newAge.remainingMercuryYears();
+    expect(newAge.remainingMercuryTime).toEqual((78.54-20)/.64);
+  });
 });
