@@ -4,6 +4,6 @@ describe('Age', () => {
 
   test('should correctly create an instance of the Age object', () => {
     const newAge = new Age(); 
-    expect(typeof(newAge)).toEqual(Object);
+    expect(typeof(newAge)).toEqual("object");
   });
 });
