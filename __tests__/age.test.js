@@ -22,6 +22,6 @@ describe('Age', () => {
 
   test(' Should correctly return a users age in venus years (A venus year is .64 earth years)', () => {
     newAge.venusYears(); 
-    expect(newAge.mercuryAge).toEqual(20/.64);
+    expect(newAge.venusAge).toEqual(20/.64);
   });
 });
