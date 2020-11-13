@@ -14,7 +14,9 @@ todo
 | Should correctly initialize an instance of the Age object | let newAge = new Age() | typeof(newAge) = object| 
 | Should correctly create an instance of the Age object with input provided to determine the starting age | let newAge = new Age(20) | newAge.startingAge = 20 | 
 | mercuryYears |||
-| Should correctly return a user's age in mercury years (A mercury year is .24 earth years) | newAge.startingAge = 20 | newAge.mercuryAge = 20/.24 = 116.67 | | 
+| Should correctly return a user's age in mercury years (A mercury year is .24 earth years) | newAge.startingAge = 20 | newAge.mercuryAge = 20/.24 = 83.33 | 
+| venusYears |||
+| Should correctly return a user's age in venus years (A venus year is .64 earth years) | newAge.startingAge = 20 | newAge.mercuryAge = 20/.64 = 31.25 | 
 
 ## Setup/Installation Requirements
 #### If you have difficulty following any of the steps/instructions listed below, please contact me at josephnero111@gmail.com 
