@@ -16,6 +16,7 @@ describe('Age', () => {
   });
 
   test(' Should correctly return a users age in mercury years (A mercury year is .24 earth years)', () => {
-    expect(newAge.mercuryAge).toEqual(83.33333333);
+    newAge.mercuryYears(); 
+    expect(newAge.mercuryAge).toEqual(20/.24);
   });
 });
