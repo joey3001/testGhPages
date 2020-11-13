@@ -38,7 +38,7 @@ export default class Age {
   }
 
   remainingMercuryYears() {
-
+    this.remainingMercuryTime = this.remainingTime/.64; 
   }
 }
 
