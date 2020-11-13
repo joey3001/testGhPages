@@ -11,10 +11,10 @@ todo
 | Test | Input | Output |
 | :--------------------------- | :--------------------------------- | :---------------- | 
 | Age |||
-| Correctly initialize an instance of the Age object | let newAge = new Age() | typeof(newAge) = object| 
-| should correctly create an instance of the Age object with input provided to determine the starting age | let newAge = new Age(20) | newAge.startingAge = 20 | 
+| Should correctly initialize an instance of the Age object | let newAge = new Age() | typeof(newAge) = object| 
+| Should correctly create an instance of the Age object with input provided to determine the starting age | let newAge = new Age(20) | newAge.startingAge = 20 | 
 | mercuryYears |||
-| Correctly return a user's age in mercury years (A mercury year is .24 earth years) | let age = 28 | let mercuryAge = age/.24 = 116.67 | | 
+| Should correctly return a user's age in mercury years (A mercury year is .24 earth years) | newAge.startingAge = 20 | newAge.mercuryAge = 20/.24 = 116.67 | | 
 
 ## Setup/Installation Requirements
 #### If you have difficulty following any of the steps/instructions listed below, please contact me at josephnero111@gmail.com 
