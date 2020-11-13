@@ -3,13 +3,13 @@ export default class Age {
     this.startingAge = start; 
     this.mercuryAge = 0; 
     this.venusAge = 0;
-    this.marsAge = 0; 
+    this.marsAge = 0;
     this.jupiterAge = 0;
     this.remainingTime = 0; 
     this.remainingMercuryTime = 0; 
     this.remainingVenusTime = 0; 
     this.remainingMarsTime = 0; 
-    this.remainingJupiterTime = 0; 
+    this.remainingJupiterTime = 0;
   }
 
   mercuryYears() {
@@ -46,7 +46,7 @@ export default class Age {
   }
   
   remainingMarsYears() {
-    this.remainingMarsTime = this.remainingTime/1.88; 
+    this.remainingMarsTime = this.remainingTime/1.88;
   }
 
   remainingJupiterYears() {
