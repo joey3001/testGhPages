@@ -34,4 +34,7 @@ describe('Age', () => {
     newAge.jupiterYears(); 
     expect(newAge.jupiterAge).toEqual(20/11.86);
   });
+
+  test(' Should correctly return a users remaining years as calculated with average life expectancy', () => {
+  });
 })
