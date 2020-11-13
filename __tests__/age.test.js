@@ -5,6 +5,7 @@ describe('Age', () => {
   let newAge; 
   beforeEach(() => {
     newAge = new Age(20);
+    newAge.remainingYears(); 
   });
 
   test('Should correctly create an instance of the Age object', () => {
@@ -47,8 +48,12 @@ describe('Age', () => {
   });
 
   test('Should return the users remaining years left in mercury years', () => {
-    newAge.remainingYears();
     newAge.remainingMercuryYears();
-    expect(newAge.remainingMercuryTime).toEqual((78.54-20)/.64);
+    expect(newAge.remainingMercuryTime).toEqual((78.54-20)/.24);
+  });
+
+  test('Should return the users remaining years left in mercury years', () => {
+    newAge.remainingVenusYears();
+    expect(newAge.remainingVenusTime).toEqual((78.54-20)/.64);
   });
 });
