@@ -5,7 +5,7 @@ export default class Age {
     this.venusAge = 0;
     this.marsAge = 0; 
     this.jupiterAge = 0;
-    this.remainingYears = 0; 
+    this.remainingTime = 0; 
   }
 
   mercuryYears() {
