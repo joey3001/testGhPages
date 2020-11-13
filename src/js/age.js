@@ -38,7 +38,10 @@ export default class Age {
   }
 
   remainingMercuryYears() {
-    this.remainingMercuryTime = this.remainingTime/.64; 
+    this.remainingMercuryTime = this.remainingTime/.24; 
+  }
+
+  remainingVenusYears() {
   }
 }
 
