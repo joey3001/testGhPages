@@ -54,19 +54,26 @@ This application utilizes a test driven environment to build and test objects an
 
 #### To view this website online please use the following GH-Pages link: 
 
-[Joe's Galactic Age Calculator](todo)
+[Joe's Galactic Age Calculator](https://joey3001.github.io/Galactic-Calculator/)
 
 #### To view this website locally, please follow these instructions to clone and open this project using git commands in the terminal. 
 
 1. Open your terminal program and use the CD command to navigate to the directory in which you wish to clone this project. 
-2. Use [this link](todo) go to this project's repository on github. Click on the green button labeled "code" towards the right side of the page's center. Click on the HTTPS option and copy the presented URL. 
+2. Use [this link](https://github.com/joey3001/Galactic-Calculator) go to this project's repository on github. Click on the green button labeled "code" towards the right side of the page's center. Click on the HTTPS option and copy the presented URL. 
 3. Use the following command in your terminal program to clone the repo :
 
-            git clone todo
+            git clone https://github.com/joey3001/Galactic-Calculator.git
 
-7. Use the CD command to enter the cloned directory. Once you are within the cloned directory, enter the following command into your terminal to open the page in your default browser : 
+#### Follow these instructions to use npm to install the project's required packages & open the project in your default browser. 
 
-            start index.html 
+1. Make sure you've downloaded Node.js. If you haven't, you can download it at [this link](https://nodejs.org/en/download/)
+2. Use the CD command to enter the cloned directory. Once you are within the cloned directory, enter the following command into your terminal to install the project's required packages : 
+
+            npm install
+
+2. Enter the following command into your terminal to open the project in your default browser : 
+
+            start index.html
 
 #### Follow these instructions to view the code in the VSCode editor using commands in the terminal. 
 
@@ -77,7 +84,7 @@ This application utilizes a test driven environment to build and test objects an
 
 #### To download a file containing the contents of this repository to a location of your choice, please follow these instructions. 
 
-1. Use a web browser to go to the repository webpage at [this link.](todo)
+1. Use a web browser to go to the repository webpage at [this link.](https://github.com/joey3001/Galactic-Calculator)
 2. Click on the green button labeled "code" towards the right side of the page's center. In the drop-down menu that opens, click on the button labeled "Download Zip."
 3. Once your download is complete, open the zipped file. Click on the button labeled "Extract All" at the top of your file explorer. 
 4. Choose the location in which you want to extract the files, and navigate to that location once this process is complete. 
