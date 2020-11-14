@@ -56,7 +56,7 @@ This application utilizes a test driven environment to build and test objects an
 
 [Joe's Galactic Age Calculator](https://joey3001.github.io/Galactic-Calculator/)
 
-#### To view this website locally, please follow these instructions to clone and open this project using git commands in the terminal. 
+#### Please follow these instructions to clone this project using git commands in the terminal. 
 
 1. Open your terminal program and use the CD command to navigate to the directory in which you wish to clone this project. 
 2. Use [this link](https://github.com/joey3001/Galactic-Calculator) go to this project's repository on github. Click on the green button labeled "code" towards the right side of the page's center. Click on the HTTPS option and copy the presented URL. 
