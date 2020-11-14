@@ -6,7 +6,7 @@
 
 ### Description
 
-This application utilizes a test driven environment to build and test objects and prototypes contained within a class. It also uses import and export statements to use the contents of a class across files. In particular, this application will calculate a users age in mercury, venus, mars, and jupiter years. It will also tell you how many years you have remaining on each planet(including earth) as measured  against the average US life expectancy. Test specs can be revealed by clicking on Expand Specs below: 
+This application utilizes a test driven environment to build and test objects and prototypes contained within a class. It also uses import and export statements to use the contents of a class across files. In particular, this application will calculate a users age in mercury, venus, mars, and jupiter years. It will also tell you how many years you have remaining on each planet(including earth) as measured  against the average US life expectancy. Test specs can be revealed by clicking on Expand Specs below : 
 
 <details>
 <summary>Expand Specs</summary>
