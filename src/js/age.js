@@ -37,6 +37,9 @@ export default class Age {
     }
   }
 
+  lifeExpectancyBoolean() {
+  }
+
   remainingMercuryYears() {
     this.remainingMercuryTime = this.remainingTime/.24; 
   }
