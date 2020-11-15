@@ -38,6 +38,12 @@ export default class Age {
   }
 
   lifeExpectancyBoolean() {
+    if (this.startingAge > 78.54) {
+      return false;
+    }
+    else {
+      return true;
+    }
   }
 
   remainingMercuryYears() {
