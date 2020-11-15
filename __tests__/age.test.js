@@ -46,6 +46,17 @@ test('If a user has surpassed the average life expectancy, Should correctly retu
     expect(newAge.remainingTime).toEqual(2);
   });
 
+test('If a user has not surpassed the average life expectancy, should return a true boolean value', () => {
+    let ageBoolean = newAge.lifeExpectancyBoolean();
+    expect(ageBoolean).toEqual(true);
+  });
+
+test('If a user has not surpassed the average life expectancy, should return a true boolean value', () => {
+    newAge.startingAge = 80.54; 
+    let ageBoolean = newAge.lifeExpectancyBoolean();
+    expect(ageBoolean).toEqual(false);
+  });
+
 test('Should return the users remaining years left in mercury years', () => {
     newAge.remainingMercuryYears();
     expect(newAge.remainingMercuryTime).toEqual((78.54-20)/.24);
