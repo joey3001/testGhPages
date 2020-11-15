@@ -28,8 +28,8 @@ This application utilizes a test driven environment to build and test objects an
 | Should correctly return a users remaining years as calculated with average life expectancy in the US | newAge.startingAge = 20 | newAge.remainingTime = 78.54 - 20 = 58.54 | 
 | If a user has surpassed the average life expectancy, Should correctly return the number of years they have lived past the average life expectancy | newAge.startingAge = 80.54 | newAge.remainingTime = 80.54 - 78.54 = 2 | 
 | lifeExpectancyBoolean |||
-| If the user's age is less than the average U.S. life expectancy, should return a true boolean value | newAge.startingAge = 20 | return true | 
-| If the user's age is greater than the average U.S. life expectancy, should return a false boolean value | newAge.startingAge = 80 | return false | 
+| If the user's age is less than the average U.S. life expectancy, should return a true boolean value | newAge.startingAge = 20 | newAge.ageBoolean = true | 
+| If the user's age is greater than the average U.S. life expectancy, should return a false boolean value | newAge.startingAge = 80 | newAge.ageBoolean = false | 
 | remainingMercuryYears |||
 | Should correctly return a users remaining years left in mercury years | newAge.startingAge = 20 | newAge.remainingMercuryTime = 58.54/.24 = 243.92 | 
 | remainingVenusYears |||
