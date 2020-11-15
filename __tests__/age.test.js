@@ -1,4 +1,5 @@
 import Age from '../src/js/age.js';
+import $ from 'jquery'
 
 describe('Age', () => {
 
@@ -49,12 +50,27 @@ test('If a user has surpassed the average life expectancy, Should correctly retu
 test('If a user has not surpassed the average life expectancy, should return a true boolean value', () => {
     newAge.lifeExpectancyBoolean();
     expect(newAge.ageBoolean).toEqual(true);
-  });
+  });  
 
 test('If a user has not surpassed the average life expectancy, should return a true boolean value', () => {
     newAge.startingAge = 80; 
     newAge.lifeExpectancyBoolean();
     expect(newAge.ageBoolean).toEqual(false);
+  });
+
+test('If a user has not surpassed the average life expectancy, should print a certain message to a specified selector', () => {
+    document.body.innerHTML = '<p id="earth"></p>';
+    newAge.lifeExpectancyBoolean();
+    newAge.lifeExpectancyPrint('#earth')
+    expect($('#earth').text()).toEqual(`Your remaining time on earth: ${newAge.remainingTime.toFixed()} Years`);
+  });
+
+test('If a user has not surpassed the average life expectancy, should print a certain message to a specified selector', () => {
+    document.body.innerHTML = '<p id="earth"></p>';
+    newAge.startingAge = 80;
+    newAge.lifeExpectancyBoolean();
+    newAge.lifeExpectancyPrint('#earth')
+    expect($('#earth').text()).toEqual(`WARNING => SUBJECT IS PASSED PROGRAM DETERMINED LIFE SPAN BY ${newAge.remainingTime.toFixed()} YEARS`);
   });
 
 test('Should return the users remaining years left in mercury years', () => {
