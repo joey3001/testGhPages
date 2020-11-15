@@ -1,0 +1,41 @@
+.columnbox1{
+  width: 25%;
+  height: auto;
+  float:left;
+  box-sizing: border-box;
+  border: 3px solid black; 
+  border-right: none;
+  margin-bottom: 25px; 
+  background-color: floralwhite;
+  box-sizing: border-box;
+}
+
+.columnbox2{
+  width: 25%;
+  height: auto;
+  float:left;
+  border: 3px solid black; 
+  margin-bottom: 25px;
+  box-sizing: border-box; 
+  background-color: floralwhite;
+}
+
+.container {
+  width: 68%;
+}
+
+.bold{
+  font-weight: bold; 
+  font-size: 120%; 
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.ulspacer{
+  padding-left: 36px;
+}
+
+ul li {
+  margin-bottom: 50px;
+  padding-right: 20px;
+}
