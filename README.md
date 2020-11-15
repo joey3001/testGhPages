@@ -58,7 +58,7 @@ This application utilizes a test driven environment to build and test objects an
 
 #### Please follow these instructions to clone this project using git commands in the terminal. 
 
-1. Open your terminal program and use the CD command to navigate to the directory in which you wish to clone this project. 
+1. Open your terminal program and use the cd command to navigate to the directory in which you wish to clone this project. 
 2. Use [this link](https://github.com/joey3001/Galactic-Calculator) go to this project's repository on github. Click on the green button labeled "code" towards the right side of the page's center. Click on the HTTPS option and copy the presented URL. 
 3. Use the following command in your terminal program to clone the repo :
 
@@ -67,18 +67,29 @@ This application utilizes a test driven environment to build and test objects an
 #### Follow these instructions to use npm to install the project's required packages & open the project in your default browser. 
 
 1. Make sure you've downloaded Node.js. If you haven't, you can download it at [this link](https://nodejs.org/en/download/)
-2. Use the CD command to enter the cloned directory. Once you are within the cloned directory, enter the following command into your terminal to install the project's required packages : 
+2. Use the cd command to enter the cloned directory. Once you are within the cloned directory, enter the following command into your terminal to install the project's required packages : 
 
             npm install
 
-2. Enter the following command into your terminal to open the project in your default browser : 
+3. Enter the following command into your terminal to build the project using the npm package manager : 
+
+            npm run build
+
+4. Use the cd command to enter the newly created dist directory. You should only have to enter the following command : 
+
+            cd dist
+
+5. Once you are within the dist directory, Enter the following command into your terminal to open the project in your default browser : 
 
             start index.html
 
 #### Follow these instructions to view the code in the VSCode editor using commands in the terminal. 
 
-1. Navigate to the project directory with the CD command if needed. If you're following this guide step-by-step, you should already be there. 
-2. Once you are within the project directory, enter the following command into your terminal program to view all of the project's code in VSCode : 
+1. Navigate to the project's directory with the cd command if needed. If you're following this guide step-by-step, you should only have to enter the following command into your terminal : 
+
+            cd ../
+
+2. Once you are within the project's root directory, enter the following command into your terminal program to view all of the project's code in VSCode : 
 
             code . 
 
