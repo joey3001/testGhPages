@@ -16,10 +16,14 @@ $('#calculator').submit(function(event) {
   newAge.remainingVenusYears();
   newAge.remainingMarsYears();
   newAge.remainingJupiterYears(); 
-  $('#mercury').text('mercury age: ' + newAge.mercuryAge.toFixed());
-  $('#mars').text('mars age: ' + newAge.marsAge.toFixed());
-  $('#venus').text('venus age: ' + newAge.venusAge.toFixed());
-  $('#jupiter').text('jupiter age: ' + newAge.jupiterAge.toFixed());
+  $('#mercury').text('Mercury Age: ' + newAge.mercuryAge.toFixed());
+  $('#mercuryTimeLeft').text('Years Left : ' + newAge.remainingMercuryTime.toFixed());
+  $('#mars').text('Mars Age: ' + newAge.marsAge.toFixed());
+  $('#marsTimeLeft').text('Years Left: ' + newAge.remainingMarsTime.toFixed());
+  $('#venus').text('Venus Age: ' + newAge.venusAge.toFixed());
+  $('#venusTimeLeft').text('Years Left: ' + newAge.remainingVenusTime.toFixed());
+  $('#jupiter').text('Jupiter Age: ' + newAge.jupiterAge.toFixed());
+  $('#jupiterTimeLeft').text('Years Left: ' + newAge.remainingJupiterTime.toFixed());
   $('.columnbox1').fadeIn("slow");
   $('.columnbox2').fadeIn("slow");
 });
