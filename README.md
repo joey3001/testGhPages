@@ -31,8 +31,8 @@ This application utilizes a test driven environment to build and test objects an
 | If the user's age is less than the average U.S. life expectancy, should return a true boolean value | newAge.startingAge = 20 | newAge.ageBoolean = true | 
 | If the user's age is greater than the average U.S. life expectancy, should return a false boolean value | newAge.startingAge = 80 | newAge.ageBoolean = false | 
 | lifeExpectancyPrint |||
-| If the user's age is less than the average U.S. life expectancy, should apply text to a specified ID | ID = #selector | $('ID').text() = specified message | 
-| If the user's age is greater than the average U.S. life expectancy, should apply different text to a specified ID | ID = #selector | $('ID').text() = different message | 
+| If the user's age is less than the average U.S. life expectancy, should apply text to a specified ID | ID = '#selector' , newAge.startingAge = 20| $(ID).text() = Your remaining time on earth: 59 Years | 
+| If the user's age is greater than the average U.S. life expectancy, should apply different text to a specified ID | ID = '#selector', newAge.startingAge = 82 | $(ID).text() = WARNING => SUBJECT IS PASSED PROGRAM DETERMINED LIFE SPAN BY 2 YEARS | 
 | remainingMercuryYears |||
 | Should correctly return a users remaining years left in mercury years | newAge.startingAge = 20 | newAge.remainingMercuryTime = 58.54/.24 = 243.92 | 
 | remainingVenusYears |||
