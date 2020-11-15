@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 export default class Age {
   constructor(start) {
     this.startingAge = start; 
@@ -39,12 +41,15 @@ export default class Age {
   }
 
   lifeExpectancyBoolean() {
-    if (this.startingAge > 78.54) {
-      this.ageBoolean = false;
-    }
-    else {
+    if (this.startingAge < 78.54) {
       this.ageBoolean = true;
     }
+    else {
+      this.ageBoolean = false;
+    }
+  }
+
+  lifeExpectancyPrint(selector) {
   }
 
   remainingMercuryYears() {
