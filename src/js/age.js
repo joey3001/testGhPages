@@ -50,6 +50,12 @@ export default class Age {
   }
 
   lifeExpectancyPrint(selector) {
+    if (this.ageBoolean === true) {
+      $(selector).text(`Your remaining time on earth: ${this.remainingTime.toFixed()} Years`).fadeIn("Slow");
+    }
+    else {
+      $(selector).text(`WARNING => SUBJECT IS PASSED PROGRAM DETERMINED LIFE SPAN BY ${this.remainingTime.toFixed()} YEARS`).fadeIn("Slow");
+    }
   }
 
   remainingMercuryYears() {
