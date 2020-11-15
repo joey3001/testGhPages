@@ -8,6 +8,7 @@
   margin-top: 5%;
   box-sizing: border-box;
   background-color: rgb(228, 202, 228);
+  display: none; 
 }
 
 .columnbox2 {
@@ -18,6 +19,7 @@
   margin-top: 5%;
   box-sizing: border-box; 
   background-color: rgb(228, 202, 228);
+  display: none;
 }
 
 .capsule {
