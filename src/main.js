@@ -17,7 +17,9 @@ $('#calculator').submit(function(event) {
   newAge.remainingMarsYears();
   newAge.remainingJupiterYears(); 
   $('#explanation').fadeIn("Slow");
-  $('#earth').text(`Your remaining time on earth: ${newAge.remainingTime.toFixed()} Years`).fadeIn("Slow");
+  newAge.lifeExpectancyBoolean();
+  newAge.lifeExpectancyPrint('#earth');
+  console.log($('#earth').text());
   $('#mercury').text(`Mercury Age: ${newAge.mercuryAge.toFixed()}`);
   $('#mercuryTimeLeft').text(`Years Left:  ${newAge.remainingMercuryTime.toFixed()}`);
   $('#mars').text(`Venus Age: ${newAge.venusAge.toFixed()}`);
