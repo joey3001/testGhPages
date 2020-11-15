@@ -28,13 +28,18 @@
 .bold {
   font-weight: bold; 
   font-size: 120%; 
-  margin-bottom: 40px;
   text-align: center;
+  font-family: monospace;
+  text-align: center;
+  margin: auto;
+  display: block;
+  margin-bottom: 2%;
+  margin-top: 1%;
 }
 
 #stars {
   float: left; 
-  width: 40%;
+  width: 100%;
   height: auto; 
   display: block;
 }
@@ -42,13 +47,24 @@
 #shuttle {
   width: 8%;
   height: auto;
-  margin-left: 2%;
+  margin-left: 3%;
+  margin-top: 2%
 }
 
 #shuttleText {
   margin: auto;
+  margin-top: 5%;
   margin-left: 1%;
   font-weight: bold;
   font-family: monospace;
   font-size: 120%;
+}
+
+.btn {
+  display: block; 
+  margin: auto; 
+  margin-top: 3%; 
+  font-family: monospace; 
+  font-weight: bold;
+  background-color: lightgrey;
 }
