@@ -1,6 +1,7 @@
 export default class Age {
   constructor(start) {
     this.startingAge = start; 
+    this.ageBoolean;
     this.mercuryAge = 0; 
     this.venusAge = 0;
     this.marsAge = 0;
@@ -39,10 +40,10 @@ export default class Age {
 
   lifeExpectancyBoolean() {
     if (this.startingAge > 78.54) {
-      return false;
+      this.ageBoolean = false;
     }
     else {
-      return true;
+      this.ageBoolean = true;
     }
   }
 
