@@ -87,7 +87,7 @@ This application utilizes a test driven environment to build and test objects an
 
 1. Navigate to the project's directory with the cd command if needed. If you're following this guide step-by-step, you should only have to enter the following command into your terminal : 
 
-            cd ../
+            cd ..
 
 2. Once you are within the project's root directory, enter the following command into your terminal program to view all of the project's code in VSCode : 
 
