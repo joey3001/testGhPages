@@ -60,7 +60,7 @@ This application utilizes a test driven environment to build and test objects an
 
 #### To view this website online please use the following GH-Pages link: 
 
-[Joe's Galactic Age Calculator](https://joey3001.github.io/Galactic-Calculator/)
+[Joe's Galactic Age Calculator](https://joey3001.github.io/GalacticCalculatorWebPage/)
 
 #### Please follow these instructions to clone this project using git commands in the terminal. 
 
