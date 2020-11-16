@@ -4,15 +4,15 @@ export default class Age {
   constructor(start) {
     this.startingAge = start; 
     this.ageBoolean;
-    this.mercuryAge = 0; 
-    this.venusAge = 0;
-    this.marsAge = 0;
-    this.jupiterAge = 0;
-    this.remainingTime = 0; 
-    this.remainingMercuryTime = 0; 
-    this.remainingVenusTime = 0; 
-    this.remainingMarsTime = 0; 
-    this.remainingJupiterTime = 0;
+    this.mercuryAge; 
+    this.venusAge;
+    this.marsAge;
+    this.jupiterAge;
+    this.remainingTime; 
+    this.remainingMercuryTime; 
+    this.remainingVenusTime; 
+    this.remainingMarsTime; 
+    this.remainingJupiterTime;
   }
 
   mercuryYears() {
@@ -50,7 +50,7 @@ export default class Age {
   }
 
   lifeExpectancyPrint(selector) {
-    if (this.ageBoolean === true) {
+    if (this.ageBoolean) {
       $(selector).text(`Your remaining time on earth: ${this.remainingTime.toFixed()} Years`).fadeIn("Slow");
     }
     else {
