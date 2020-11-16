@@ -37,7 +37,7 @@ test('Should correctly return a users age in jupiter years (A jupiter year is 11
     expect(newAge.jupiterAge).toEqual(20/11.86);
   });
 
-test('Should correctly return a users remaining years as calculated with average life expectancy in the US', () => {
+test('Should correctly return a users remaining years as calculated with average life expectancy in the U.S.(78.54 years)', () => {
     expect(newAge.remainingTime).toEqual(78.54-20);
   });
 

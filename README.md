@@ -25,8 +25,7 @@ This application utilizes a test driven environment to build and test objects an
 | jupiterYears |||
 | Should correctly return a user's age in jupiter years (A jupiter year is 11.86 earth years) | newAge.startingAge = 20 | newAge.jupiterAge = 20/11.86 = 1.69 | 
 | remainingYears |||
-| Should correctly return a user'
-s remaining years as calculated with average life expectancy in the U.S. | newAge.startingAge = 20 | newAge.remainingTime = 78.54 - 20 = 58.54 | 
+| Should correctly return a user's remaining years as calculated with average life expectancy in the U.S. | newAge.startingAge = 20 | newAge.remainingTime = 78.54 - 20 = 58.54 | 
 | If a user has surpassed the average life expectancy, Should correctly return the number of years they have lived past the average life expectancy | newAge.startingAge = 80.54 | newAge.remainingTime = 80.54 - 78.54 = 2 | 
 | lifeExpectancyBoolean |||
 | If the user's age is less than the average U.S. life expectancy, should return a true boolean value | newAge.startingAge = 20 | newAge.ageBoolean = true | 
@@ -115,6 +114,7 @@ s remaining years as calculated with average life expectancy in the U.S. | newAg
 ## Known Bugs
 
 1. For readability, the project rounds results that are displayed to the user to the nearest whole number. 
+2. Only whole numbers can be entered for the user's age. 
 
 ## Support and contact details
 
