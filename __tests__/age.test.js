@@ -52,7 +52,7 @@ test('If a user has not surpassed the average life expectancy, should return a t
     expect(newAge.ageBoolean).toEqual(true);
   });  
 
-test('If a user has not surpassed the average life expectancy, should return a true boolean value', () => {
+test('If a user has surpassed the average life expectancy, should return a false boolean value', () => {
     newAge.startingAge = 80; 
     newAge.lifeExpectancyBoolean();
     expect(newAge.ageBoolean).toEqual(false);
@@ -65,7 +65,7 @@ test('If a user has not surpassed the average life expectancy, should print a ce
     expect($('#earth').text()).toEqual(`Your remaining time on earth: ${newAge.remainingTime.toFixed()} Years`);
   });
 
-test('If a user has surpassed the average life expectancy, should print a certain message to a specified selector', () => {
+test('If a user has surpassed the average life expectancy, should print a different message to a specified selector', () => {
     document.body.innerHTML = '<p id="earth"></p>';
     newAge.startingAge = 80;
     newAge.lifeExpectancyBoolean();
