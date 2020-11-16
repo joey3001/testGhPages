@@ -70,7 +70,7 @@ This application utilizes a test driven environment to build and test objects an
 
             git clone https://github.com/joey3001/Galactic-Calculator.git
 
-#### Follow these instructions to use npm to install the project's required packages & open the project in your default browser. 
+#### Follow these instructions to use npm to install the project's required packages, test the project's functions, and open the project in your default browser. 
 
 1. Make sure you've downloaded Node.js. If you haven't, you can download it at [this link](https://nodejs.org/en/download/)
 2. Use the cd command to enter the cloned directory. Once you are within the cloned directory, enter the following command into your terminal to install the project's required packages : 
@@ -81,11 +81,15 @@ This application utilizes a test driven environment to build and test objects an
 
             npm run build
 
-4. Use the cd command to enter the newly created dist directory. You should only have to enter the following command : 
+4. Enter the following command into your terminal to test the project's functions & see the percentage of lines that are covered by a test : 
+
+            npm test 
+
+5. Use the cd command to enter the newly created dist directory. You should only have to enter the following command : 
 
             cd dist
 
-5. Once you are within the dist directory, Enter the following command into your terminal to open the project in your default browser : 
+6. Once you are within the dist directory, Enter the following command into your terminal to open the project in your default browser : 
 
             start index.html
 
