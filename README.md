@@ -6,7 +6,7 @@
 
 ### Description
 
-This application utilizes a test driven environment to build and test objects and prototypes contained within a class. It also uses import and export statements to use the contents of a class across files. In particular, this application will calculate a users age in mercury, venus, mars, and jupiter years. It will also tell you how many years you have remaining on each planet(including earth) as measured  against the average U.S. life expectancy. Test specs can be revealed by clicking on Expand Specs below : 
+This application utilizes a test driven environment to build and test objects and prototypes contained within a class. It also uses import and export statements to use the contents of a class across files. In particular, this application will calculate a user's age in mercury, venus, mars, and jupiter years. It will also tell you how many years you have remaining on each planet(including earth) as measured  against the average U.S. life expectancy. Test specs can be revealed by clicking on Expand Specs below : 
 
 <details>
 <summary>Expand Specs</summary>
@@ -21,11 +21,12 @@ This application utilizes a test driven environment to build and test objects an
 | venusYears |||
 | Should correctly return a user's age in venus years (A venus year is .64 earth years) | newAge.startingAge = 20 | newAge.venusAge = 20/.64 = 31.25 | 
 | marsYears |||
-| Should correctly return a user's age in mars years (A mars year is 1.88 earth years) | newAge.startingAge = 20 | newAge.marsAge = 20/.64 = 31.25 | 
+| Should correctly return a user's age in mars years (A mars year is 1.88 earth years) | newAge.startingAge = 20 | newAge.marsAge = 20/1.88 = 10.64 | 
 | jupiterYears |||
-| Should correctly return a user's age in jupiter years (A jupiter year is 11.86 earth years) | newAge.startingAge = 20 | newAge.jupiterAge = 11.86 | 
+| Should correctly return a user's age in jupiter years (A jupiter year is 11.86 earth years) | newAge.startingAge = 20 | newAge.jupiterAge = 20/11.86 = 1.69 | 
 | remainingYears |||
-| Should correctly return a users remaining years as calculated with average life expectancy in the US | newAge.startingAge = 20 | newAge.remainingTime = 78.54 - 20 = 58.54 | 
+| Should correctly return a user'
+s remaining years as calculated with average life expectancy in the U.S. | newAge.startingAge = 20 | newAge.remainingTime = 78.54 - 20 = 58.54 | 
 | If a user has surpassed the average life expectancy, Should correctly return the number of years they have lived past the average life expectancy | newAge.startingAge = 80.54 | newAge.remainingTime = 80.54 - 78.54 = 2 | 
 | lifeExpectancyBoolean |||
 | If the user's age is less than the average U.S. life expectancy, should return a true boolean value | newAge.startingAge = 20 | newAge.ageBoolean = true | 
@@ -34,13 +35,13 @@ This application utilizes a test driven environment to build and test objects an
 | If the user's age is less than the average U.S. life expectancy, should apply text to a specified ID | ID = '#selector' , newAge.startingAge = 20| $(ID).text() = Your remaining time on earth: 59 Years | 
 | If the user's age is greater than the average U.S. life expectancy, should apply different text to a specified ID | ID = '#selector', newAge.startingAge = 82 | $(ID).text() = WARNING => SUBJECT IS PASSED PROGRAM DETERMINED LIFE SPAN BY 2 YEARS | 
 | remainingMercuryYears |||
-| Should correctly return a users remaining years left in mercury years | newAge.startingAge = 20 | newAge.remainingMercuryTime = 58.54/.24 = 243.92 | 
+| Should correctly return a user's remaining years left in mercury years | newAge.startingAge = 20 | newAge.remainingMercuryTime = 58.54/.24 = 243.92 | 
 | remainingVenusYears |||
-| Should correctly return a users remaining years left in venus years | newAge.startingAge = 20 | newAge.remainingMercuryTime = 58.54/.64 = 91.47 | 
+| Should correctly return a user's remaining years left in venus years | newAge.startingAge = 20 | newAge.remainingVenusTime = 58.54/.64 = 91.47 | 
 | remainingMarsYears |||
-| Should correctly return a users remaining years left in mars years | newAge.startingAge = 20 | newAge.remainingMercuryTime = 58.54/1.88 = 31.14 | 
+| Should correctly return a user's remaining years left in mars years | newAge.startingAge = 20 | newAge.remainingMarsTime = 58.54/1.88 = 31.14 | 
 | remainingJupiterYears |||
-| Should correctly return a users remaining years left in jupiter years | newAge.startingAge = 20 | newAge.remainingMercuryTime = 58.54/11.86 = 4.94 | 
+| Should correctly return a user's remaining years left in jupiter years | newAge.startingAge = 20 | newAge.remainingJupiterTime = 58.54/11.86 = 4.94 | 
 
 </details>
 
@@ -113,7 +114,7 @@ This application utilizes a test driven environment to build and test objects an
 
 ## Known Bugs
 
-There are no known bugs at this time. 
+1. For readability, the project rounds results that are displayed to the user to the nearest whole number. 
 
 ## Support and contact details
 

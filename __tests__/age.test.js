@@ -32,7 +32,7 @@ test('Should correctly return a users age in mars years (A mars year is 1.88 ear
     expect(newAge.marsAge).toEqual(20/1.88);
   });
 
-test('Should correctly return a users age in jupier years (A jupiter year is 11.86 earth years)', () => {
+test('Should correctly return a users age in jupiter years (A jupiter year is 11.86 earth years)', () => {
     newAge.jupiterYears(); 
     expect(newAge.jupiterAge).toEqual(20/11.86);
   });
